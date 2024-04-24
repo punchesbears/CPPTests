@@ -9,7 +9,7 @@ public class CPPTests : ModuleRules
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput" });
-        PrivateDependencyModuleNames.AddRange(new string[] { "MagicNodeRuntime" });
+        //PrivateDependencyModuleNames.AddRange(new string[] { "MagicNodeRuntime" });
 
     }
 }
